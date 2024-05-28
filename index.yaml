@@ -2,10 +2,11 @@ apiVersion: v1
 entries:
   opensearch:
   - apiVersion: v2
-    appVersion: 2.6.0
-    created: "2023-03-10T20:55:22.54430398Z"
+    appVersion: 2.14.0
+    created: "2024-05-28T17:31:27.392215317Z"
     description: A Helm chart for OpenSearch
-    digest: 2754ed708701417a1dc5a12c838811f9b014ca538818911c82532571d1eac246
+    digest: a260a61a89d8c96b5e2804bd762ea6bb0f18f91bb2e40a67efaeca3ace9cd3c1
+    home: https://opensearch.org
     maintainers:
     - name: DandyDeveloper
     - name: bbarani
@@ -14,16 +15,19 @@ entries:
     - name: prudhvigodithi
     - name: TheAlgo
     name: opensearch
+    sources:
+    - https://github.com/opensearch-project/opensearch
+    - https://github.com/opensearch-project/helm-charts
     type: application
     urls:
-    - https://github.com/bbarani/helm-charts/releases/download/opensearch-2.11.0/opensearch-2.11.0.tgz
-    version: 2.11.0
+    - https://github.com/bbarani/helm-charts/releases/download/opensearch-2.20.0/opensearch-2.20.0.tgz
+    version: 2.20.0
   opensearch-dashboards:
   - apiVersion: v2
-    appVersion: 2.6.0
-    created: "2023-03-10T20:55:23.08802595Z"
+    appVersion: 2.14.0
+    created: "2024-05-28T17:31:27.586854659Z"
     description: A Helm chart for OpenSearch Dashboards
-    digest: 662d38da05d51b6f3d63e5c93ac2e78eb2a22078fe987cb63ae2f9926ca976ec
+    digest: b4b5a92cf0a581d7df83f398361b6098f669cb9812cf95172137171d1bd05ece
     maintainers:
     - name: DandyDeveloper
     - name: bbarani
@@ -34,6 +38,6 @@ entries:
     name: opensearch-dashboards
     type: application
     urls:
-    - https://github.com/bbarani/helm-charts/releases/download/opensearch-dashboards-2.9.0/opensearch-dashboards-2.9.0.tgz
-    version: 2.9.0
-generated: "2023-03-10T20:55:23.088122151Z"
+    - https://github.com/bbarani/helm-charts/releases/download/opensearch-dashboards-2.18.0/opensearch-dashboards-2.18.0.tgz
+    version: 2.18.0
+generated: "2024-05-28T17:31:27.586861211Z"
